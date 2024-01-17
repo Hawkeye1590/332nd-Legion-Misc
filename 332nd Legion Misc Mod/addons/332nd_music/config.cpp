@@ -1,9 +1,9 @@
 class CfgPatches
 {
-	class ORG_Music
+	class 332nd_Music
 	{
-		name="ORG Music";
-		author="Magic";
+		name="332nd Music";
+		author="Magika";
 		units[]={};
 		weapons[]={};
 	};
@@ -44,15 +44,22 @@ class CfgMusic
 		"Ahsokas_Village",
 		"Dookus_Fall",
 		"Past_Present_Suite",
-		"The_Night_Before"
+		"The_Night_Before",
+		"Professional_Execution",
+		"Showdown",
+		"Peacekeeper_1",
+		"Peacekeeper_2",
+		"Kings",
+		"Danger_Bound",
+		"Coronation",
 	};
 	class Stop_Music
 	{
 		name="Stop Music";
-		musicClass="ORG_Music_Other";
+		musicClass="332nd_music_Other";
 		sound[]=
 		{
-			"\ORG_music\data\Other\Stop.ogg",
+			"\332nd_music\data\Other\Stop.ogg",
 			1,
 			1
 		};
@@ -61,10 +68,10 @@ class CfgMusic
 	class Clone_Army_March
 	{
 		name="Clone Army March (Action)";
-		musicClass="ORG_Music_SW";
+		musicClass="332nd_music_SW";
 		sound[]=
 		{
-			"\ORG_music\data\SW\Clone_Army_March.ogg",
+			"\332nd_music\data\SW\Clone_Army_March.ogg",
 			1,
 			1
 		};
@@ -73,10 +80,10 @@ class CfgMusic
 	class Droid_Army_March
 	{
 		name="Droid Army March (Action)";
-		musicClass="ORG_Music_SW";
+		musicClass="332nd_music_SW";
 		sound[]=
 		{
-			"\ORG_music\data\SW\Droid_Army_March.ogg",
+			"\332nd_music\data\SW\Droid_Army_March.ogg",
 			1,
 			1
 		};
@@ -85,10 +92,10 @@ class CfgMusic
 	class Burying_the_Dead
 	{
 		name="Burying the Dead (Calm, Sad)";
-		musicClass="ORG_Music_SW";
+		musicClass="332nd_music_SW";
 		sound[]=
 		{
-			"\ORG_music\data\SW\Burying_the_Dead.ogg",
+			"\332nd_music\data\SW\Burying_the_Dead.ogg",
 			1,
 			1
 		};
@@ -97,10 +104,10 @@ class CfgMusic
 	class Ahsoka_vs_Maul
 	{
 		name="Ahsoka vs Maul (Action)";
-		musicClass="ORG_Music_SW";
+		musicClass="332nd_music_SW";
 		sound[]=
 		{
-			"\ORG_music\data\SW\Ahsoka_vs_Maul.ogg",
+			"\332nd_music\data\SW\Ahsoka_vs_Maul.ogg",
 			1,
 			1
 		};
@@ -109,10 +116,10 @@ class CfgMusic
 	class Siege_of_Mandalore
 	{
 		name="Siege of Mandalore (Action)";
-		musicClass="ORG_Music_SW";
+		musicClass="332nd_music_SW";
 		sound[]=
 		{
-			"\ORG_music\data\SW\Siege_of_Mandalore.ogg",
+			"\332nd_music\data\SW\Siege_of_Mandalore.ogg",
 			1,
 			1
 		};
@@ -121,10 +128,10 @@ class CfgMusic
 	class Im_So_Sorry
 	{
 		name="I'm So Sorry (Calm, Sad)";
-		musicClass="ORG_Music_SW";
+		musicClass="332nd_music_SW";
 		sound[]=
 		{
-			"\ORG_music\data\SW\Im_So_Sorry.ogg",
+			"\332nd_music\data\SW\Im_So_Sorry.ogg",
 			1,
 			1
 		};
@@ -133,10 +140,10 @@ class CfgMusic
 	class Shattered
 	{
 		name="Shattered (Calm)";
-		musicClass="ORG_Music_SW";
+		musicClass="332nd_music_SW";
 		sound[]=
 		{
-			"\ORG_music\data\SW\Shattered.ogg",
+			"\332nd_music\data\SW\Shattered.ogg",
 			1,
 			1
 		};
@@ -145,10 +152,10 @@ class CfgMusic
 	class Vode_An
 	{
 		name="Vode An (Action)";
-		musicClass="ORG_Music_SW";
+		musicClass="332nd_music_SW";
 		sound[]=
 		{
-			"\ORG_music\data\SW\Vode_An.ogg",
+			"\332nd_music\data\SW\Vode_An.ogg",
 			1,
 			1
 		};
@@ -157,10 +164,10 @@ class CfgMusic
 	class Vode_An_and_Clones
 	{
 		name="Vode An & Clones (Action)";
-		musicClass="ORG_Music_SW";
+		musicClass="332nd_music_SW";
 		sound[]=
 		{
-			"\ORG_music\data\SW\Vode_An_and_Clones_Theme.ogg",
+			"\332nd_music\data\SW\Vode_An_and_Clones_Theme.ogg",
 			1,
 			1
 		};
@@ -169,10 +176,10 @@ class CfgMusic
 	class Mandalorian_War_Song
 	{
 		name="Mandalorian War Song (Action)";
-		musicClass="ORG_Music_SW";
+		musicClass="332nd_music_SW";
 		sound[]=
 		{
-			"\ORG_music\data\SW\Mandalorian_War_Song.ogg",
+			"\332nd_music\data\SW\Mandalorian_War_Song.ogg",
 			1,
 			1
 		};
@@ -181,10 +188,10 @@ class CfgMusic
 	class Mandalorian_War_Chant
 	{
 		name="Mandalorian War Chant (Action)";
-		musicClass="ORG_Music_SW";
+		musicClass="332nd_music_SW";
 		sound[]=
 		{
-			"\ORG_music\data\SW\Mandalorian_War_Chant.ogg",
+			"\332nd_music\data\SW\Mandalorian_War_Chant.ogg",
 			1,
 			1
 		};
@@ -193,10 +200,10 @@ class CfgMusic
 	class Bad_Batch
 	{
 		name="The Bad Batch (Action)";
-		musicClass="ORG_Music_SW";
+		musicClass="332nd_music_SW";
 		sound[]=
 		{
-			"\ORG_music\data\SW\Bad_Batch.ogg",
+			"\332nd_music\data\SW\Bad_Batch.ogg",
 			1,
 			1
 		};
@@ -205,10 +212,10 @@ class CfgMusic
 	class Crosshair_and_Bad_Batch
 	{
 		name="Crosshair & The Bad Batch (Action)";
-		musicClass="ORG_Music_SW";
+		musicClass="332nd_music_SW";
 		sound[]=
 		{
-			"\ORG_music\data\SW\Crosshair_and_Bad_Batch.ogg",
+			"\332nd_music\data\SW\Crosshair_and_Bad_Batch.ogg",
 			1,
 			1
 		};
@@ -217,10 +224,10 @@ class CfgMusic
 	class Force_Theme
 	{
 		name="The Force Theme (Calm)";
-		musicClass="ORG_Music_SW";
+		musicClass="332nd_music_SW";
 		sound[]=
 		{
-			"\ORG_music\data\SW\Force_Theme.ogg",
+			"\332nd_music\data\SW\Force_Theme.ogg",
 			1,
 			1
 		};
@@ -229,10 +236,10 @@ class CfgMusic
 	class We_Dont_Understand
 	{
 		name="We Don't Understand (Action, Foreboding)";
-		musicClass="ORG_Music_SW";
+		musicClass="332nd_music_SW";
 		sound[]=
 		{
-			"\ORG_music\data\SW\We_Dont_Understand.ogg",
+			"\332nd_music\data\SW\We_Dont_Understand.ogg",
 			1,
 			1
 		};
@@ -241,10 +248,10 @@ class CfgMusic
 	class Dooku_Arrives
 	{
 		name="Dooku Arrives (Calm, Defeat)";
-		musicClass="ORG_Music_SW";
+		musicClass="332nd_music_SW";
 		sound[]=
 		{
-			"\ORG_music\data\SW\Dooku_Arrives.ogg",
+			"\332nd_music\data\SW\Dooku_Arrives.ogg",
 			1,
 			1
 		};
@@ -253,10 +260,10 @@ class CfgMusic
 	class Soldiers_are_Here
 	{
 		name="Soldiers are Here (Action, Foreboding)";
-		musicClass="ORG_Music_SW";
+		musicClass="332nd_music_SW";
 		sound[]=
 		{
-			"\ORG_music\data\SW\Soldiers_are_Here.ogg",
+			"\332nd_music\data\SW\Soldiers_are_Here.ogg",
 			1,
 			1
 		};
@@ -265,10 +272,10 @@ class CfgMusic
 	class No_More_Suffering
 	{
 		name="No More Suffering (Calm, Victory)";
-		musicClass="ORG_Music_SW";
+		musicClass="332nd_music_SW";
 		sound[]=
 		{
-			"\ORG_music\data\SW\No_More_Suffering.ogg",
+			"\332nd_music\data\SW\No_More_Suffering.ogg",
 			1,
 			1
 		};
@@ -277,10 +284,10 @@ class CfgMusic
 	class The_Inquisitor
 	{
 		name="The Inquisitor (Foreboding)";
-		musicClass="ORG_Music_SW";
+		musicClass="332nd_music_SW";
 		sound[]=
 		{
-			"\ORG_music\data\SW\The_Inquisitor.ogg",
+			"\332nd_music\data\SW\The_Inquisitor.ogg",
 			1,
 			1
 		};
@@ -289,10 +296,10 @@ class CfgMusic
 	class Ahsokas_Village
 	{
 		name="Ahsoka's Village (Calm)";
-		musicClass="ORG_Music_SW";
+		musicClass="332nd_music_SW";
 		sound[]=
 		{
-			"\ORG_music\data\SW\Ahsokas_Village.ogg",
+			"\332nd_music\data\SW\Ahsokas_Village.ogg",
 			1,
 			1
 		};
@@ -301,10 +308,10 @@ class CfgMusic
 	class Dookus_Fall
 	{
 		name="Dooku's Fall (Calm)";
-		musicClass="ORG_Music_SW";
+		musicClass="332nd_music_SW";
 		sound[]=
 		{
-			"\ORG_music\data\SW\Dookus_Fall.ogg",
+			"\332nd_music\data\SW\Dookus_Fall.ogg",
 			1,
 			1
 		};
@@ -313,10 +320,10 @@ class CfgMusic
 	class Past_Present_Suite
 	{
 		name="Past/Present Suite (Hope)";
-		musicClass="ORG_Music_SW";
+		musicClass="332nd_music_SW";
 		sound[]=
 		{
-			"\ORG_music\data\SW\Past_Present_Suite.ogg",
+			"\332nd_music\data\SW\Past_Present_Suite.ogg",
 			1,
 			1
 		};
@@ -325,10 +332,10 @@ class CfgMusic
 	class The_Night_Before
 	{
 		name="The Night Before (Calm)";
-		musicClass="ORG_Music_SW";
+		musicClass="332nd_music_SW";
 		sound[]=
 		{
-			"\ORG_music\data\SW\The_Night_Before.ogg",
+			"\332nd_music\data\SW\The_Night_Before.ogg",
 			1,
 			1
 		};
@@ -337,10 +344,10 @@ class CfgMusic
 	class Eternal_Empire_Theme
 	{
 		name="Eternal Empire Theme (Action)";
-		musicClass="ORG_Music_SW";
+		musicClass="332nd_music_SW";
 		sound[]=
 		{
-			"\ORG_music\data\SW\Eternal_Empire_Theme.ogg",
+			"\332nd_music\data\SW\Eternal_Empire_Theme.ogg",
 			1,
 			1
 		};
@@ -349,10 +356,10 @@ class CfgMusic
 	class Maelstorm
 	{
 		name="Maelstorm Combat Theme (Action)";
-		musicClass="ORG_Music_CP2077";
+		musicClass="332nd_music_CP2077";
 		sound[]=
 		{
-			"\ORG_music\data\CP2077\Maelstorm.ogg",
+			"\332nd_music\data\CP2077\Maelstorm.ogg",
 			1,
 			1
 		};
@@ -361,10 +368,10 @@ class CfgMusic
 	class Valentinos
 	{
 		name="Valentinos Combat Theme (Action)";
-		musicClass="ORG_Music_CP2077";
+		musicClass="332nd_music_CP2077";
 		sound[]=
 		{
-			"\ORG_music\data\CP2077\Valentinos.ogg",
+			"\332nd_music\data\CP2077\Valentinos.ogg",
 			1,
 			1
 		};
@@ -373,10 +380,10 @@ class CfgMusic
 	class Militech
 	{
 		name="Militech Combat Theme (Action)";
-		musicClass="ORG_Music_CP2077";
+		musicClass="332nd_music_CP2077";
 		sound[]=
 		{
-			"\ORG_music\data\CP2077\Militech.ogg",
+			"\332nd_music\data\CP2077\Militech.ogg",
 			1,
 			1
 		};
@@ -385,10 +392,10 @@ class CfgMusic
 	class Cyberpsycho
 	{
 		name="Cyberpsycho Combat Theme (Action)";
-		musicClass="ORG_Music_CP2077";
+		musicClass="332nd_music_CP2077";
 		sound[]=
 		{
-			"\ORG_music\data\CP2077\Cyberpsycho.ogg",
+			"\332nd_music\data\CP2077\Cyberpsycho.ogg",
 			1,
 			1
 		};
@@ -397,31 +404,120 @@ class CfgMusic
 	class NCPD
 	{
 		name="NCPD Combat Theme (Action)";
-		musicClass="ORG_Music_CP2077";
+		musicClass="332nd_music_CP2077";
 		sound[]=
 		{
-			"\ORG_music\data\CP2077\NCPD.ogg",
+			"\332nd_music\data\CP2077\NCPD.ogg",
 			1,
 			1
 		};
 		duration="296";
 	};
+	class Professional_Execution
+	{
+		name="Professional Execution (Action)";
+		musicClass="332nd_music_Project_Wingman";
+		sound[]=
+		{
+			"\332nd_music\data\Project_Wingman\Professional_Execution.ogg",
+			1,
+			1
+		};
+		duration="153";
+	};
+	class Showdown
+	{
+		name="Showdown (Action)";
+		musicClass="332nd_music_Project_Wingman";
+		sound[]=
+		{
+			"\332nd_music\data\Project_Wingman\Showdown.ogg",
+			1,
+			1
+		};
+		duration="189";
+	};
+	class Peacekeeper_1
+	{
+		name="Peacekeeper I (Action)";
+		musicClass="332nd_music_Project_Wingman";
+		sound[]=
+		{
+			"\332nd_music\data\Project_Wingman\Peacekeeper_1.ogg",
+			1,
+			1
+		};
+		duration="185";
+	};
+	class Peacekeeper_2
+	{
+		name="Peacekeeper II (Action)";
+		musicClass="332nd_music_Project_Wingman";
+		sound[]=
+		{
+			"\332nd_music\data\Project_Wingman\Peacekeeper_2.ogg",
+			1,
+			1
+		};
+		duration="172";
+	};
+	class Kings
+	{
+		name="Kings (Action)";
+		musicClass="332nd_music_Project_Wingman";
+		sound[]=
+		{
+			"\332nd_music\data\Project_Wingman\Kings.ogg",
+			1,
+			1
+		};
+		duration="425";
+	};
+	class Danger_Bound
+	{
+		name="Danger Bound (Action)";
+		musicClass="332nd_music_Project_Wingman";
+		sound[]=
+		{
+			"\332nd_music\data\Project_Wingman\Danger_Bound.ogg",
+			1,
+			1
+		};
+		duration="203";
+	};
+	class Coronation
+	{
+		name="Coronation (Defeat)";
+		musicClass="332nd_music_Project_Wingman";
+		sound[]=
+		{
+			"\332nd_music\data\Project_Wingman\Coronation.ogg",
+			1,
+			1
+		};
+		duration="160";
+	};
 };
 class CfgMusicClasses
 {
-	class ORG_Music_SW
+	class 332nd_music_SW
 	{
 		author="Magic";
-		displayName="[ORG] Star Wars";
+		displayName="[332nd] Star Wars";
 	};
-	class ORG_Music_CP2077
+	class 332nd_music_CP2077
 	{
 		author="Magic";
-		displayName="[ORG] Cyberpunk 2077";
+		displayName="[332nd] Cyberpunk 2077";
 	};
-	class ORG_Music_Other
+	class 332nd_music_Project_Wingman
 	{
 		author="Magic";
-		displayName="[ORG] Other";
+		displayName="[332nd] Project Wingman";
+	};
+	class 332nd_music_Other
+	{
+		author="Magic";
+		displayName="[332nd] Other";
 	};
 };
