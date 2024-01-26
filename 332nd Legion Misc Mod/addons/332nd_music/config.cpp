@@ -52,6 +52,11 @@ class CfgMusic
 		"Kings",
 		"Danger_Bound",
 		"Coronation",
+		"Strength",
+		"Tyrant_Overthrown",
+		"Aspiration",
+		"Rifleman",
+		"Forward_Fleet"
 	};
 	class Stop_Music
 	{
@@ -497,27 +502,92 @@ class CfgMusic
 		};
 		duration="160";
 	};
+	class Strength
+	{
+		name="Strength (Action)";
+		musicClass="332nd_music_Destiny";
+		sound[]=
+		{
+			"\332nd_music\data\Destiny\Strength.ogg",
+			1,
+			1
+		};
+		duration="348";
+	};
+	class Tyrant_Overthrown
+	{
+		name="Tyrant Overthrown (Action)";
+		musicClass="332nd_music_Destiny";
+		sound[]=
+		{
+			"\332nd_music\data\Destiny\Tyrant_Overthrown.ogg",
+			1,
+			1
+		};
+		duration="446";
+	};
+	class Aspiration
+	{
+		name="Aspiration (Action)";
+		musicClass="332nd_music_Destiny";
+		sound[]=
+		{
+			"\332nd_music\data\Destiny\Aspiration.ogg",
+			1,
+			1
+		};
+		duration="289";
+	};
+	class Rifleman
+	{
+		name="Rifleman (Action)";
+		musicClass="332nd_music_Destiny";
+		sound[]=
+		{
+			"\332nd_music\data\Destiny\Rifleman.ogg",
+			1,
+			1
+		};
+		duration="129";
+	};
+	class Forward_Fleet
+	{
+		name="Forward Fleet (Tension)";
+		musicClass="332nd_music_Destiny";
+		sound[]=
+		{
+			"\332nd_music\data\Destiny\Forward_Fleet.ogg",
+			1,
+			1
+		};
+		duration="204";
+	};
 };
 class CfgMusicClasses
 {
 	class 332nd_music_SW
 	{
-		author="Magic";
+		author="Magika";
 		displayName="[332nd] Star Wars";
 	};
 	class 332nd_music_CP2077
 	{
-		author="Magic";
+		author="Magika";
 		displayName="[332nd] Cyberpunk 2077";
 	};
 	class 332nd_music_Project_Wingman
 	{
-		author="Magic";
+		author="Magika";
 		displayName="[332nd] Project Wingman";
+	};
+	class 332nd_music_Destiny
+	{
+		author="Magika";
+		displayName="[332nd] Destiny";
 	};
 	class 332nd_music_Other
 	{
-		author="Magic";
+		author="Magika";
 		displayName="[332nd] Other";
 	};
 };

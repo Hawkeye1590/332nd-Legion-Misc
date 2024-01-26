@@ -47,7 +47,7 @@ class RscDisplayMain: RscStandardDisplay
 	idd=0;
 	idc=1;
 	enableDisplay=1;
-	text="332nd_main_menu\Images\332nd_artwork_1.paa";
+	text="332nd_main_menu\Images\332nd_artwork_2.paa";
 	class RscActiveText;
 	class RscActivePicture: RscActiveText
 	{
@@ -85,8 +85,58 @@ class RscDisplayMain: RscStandardDisplay
 		{
 			idc=-1;
 			text="Join the 332nd Legion Discord";
+			font = PuristaSemibold;
+			color = 
 			style=2;
 			url="https://discord.gg/tgUsw9P6dq";
+			colorBackground[]={0,0,0,0.40000001};
+			colorBackgroundActive[]={1,0,0,0,2};
+			borderSize=0.054000001;
+			colorBorder[]={0,0,0,0};
+			x="safeZoneX + 0.43 * safeZoneW";
+			y="safeZoneY + 0.65 * safeZoneH";
+			w="0.35";
+			h="0.05";
+		};
+		class ConnectServer: RscButton
+		{
+			idc=-1;
+			text="Server 1";
+			font = PuristaSemibold;
+			style=2;
+			onbuttonclick="connectToServer ['162.248.92.58', 2322, '332nd']";
+			colorBackground[]={0,0,0,0.40000001};
+			colorBackgroundActive[]={1,0,0,0,2};
+			borderSize=0.054000001;
+			colorBorder[]={0,0,0,0};
+			x="safeZoneX + 0.43 * safeZoneW";
+			y="safeZoneY + 0.25 * safeZoneH";
+			w="0.35";
+			h="0.05";
+		};
+		class ConnectServer2: RscButton
+		{
+			idc=-1;
+			text="Server 2";
+			font = PuristaSemibold;
+			style=2;
+			onbuttonclick="connectToServer ['162.248.92.58', 2332, '332nd']";
+			colorBackground[]={0,0,0,0.40000001};
+			colorBackgroundActive[]={1,0,0,0,2};
+			borderSize=0.054000001;
+			colorBorder[]={0,0,0,0};
+			x="safeZoneX + 0.43 * safeZoneW";
+			y="safeZoneY + 0.35 * safeZoneH";
+			w="0.35";
+			h="0.05";
+		};
+		class ConnectServer3: RscButton
+		{
+			idc=-1;
+			text="Liberation Server";
+			font = PuristaSemibold;
+			style=2;
+			onbuttonclick="connectToServer ['162.248.92.58', 2362, '332nd']";
 			colorBackground[]={0,0,0,0.40000001};
 			colorBackgroundActive[]={1,0,0,0,2};
 			borderSize=0.054000001;
@@ -96,64 +146,20 @@ class RscDisplayMain: RscStandardDisplay
 			w="0.35";
 			h="0.05";
 		};
-		class ConnectServer: RscButton
-		{
-			idc=-1;
-			text="Server 1";
-			style=2;
-			onbuttonclick="connectToServer ['162.248.92.58', 2322, '332nd']";
-			colorBackground[]={0,0,0,0.69999999};
-			colorBackgroundActive[]={1,0,0,0,2};
-			borderSize=0.054000001;
-			colorBorder[]={0,0,0,0};
-			x="safeZoneX + 0.2 * safeZoneW";
-			y="safeZoneY + 0.2 * safeZoneH";
-			w="0.25";
-			h="0.05";
-		};
-		class ConnectServer2: RscButton
-		{
-			idc=-1;
-			text="Server 2";
-			style=2;
-			onbuttonclick="connectToServer ['162.248.92.58', 2332, '332nd']";
-			colorBackground[]={0,0,0,0.69999999};
-			colorBackgroundActive[]={1,0,0,0,2};
-			borderSize=0.054000001;
-			colorBorder[]={0,0,0,0};
-			x="safeZoneX + safeZoneW - 0.6";
-			y="safeZoneY + 0.2 * safeZoneH";
-			w="0.25";
-			h="0.05";
-		};
-		class ConnectServer3: RscButton
-		{
-			idc=-1;
-			text="Lib Server";
-			style=2;
-			onbuttonclick="connectToServer ['162.248.92.58', 2362, '332nd']";
-			colorBackground[]={0,0,0,0.69999999};
-			colorBackgroundActive[]={1,0,0,0,2};
-			borderSize=0.054000001;
-			colorBorder[]={0,0,0,0};
-			x="safeZoneX + 0.2 * safeZoneW";
-			y="safeZoneY + safeZoneH - 0.5";
-			w="0.25";
-			h="0.05";
-		};
 		class ConnectServer4: RscButton
 		{
 			idc=-1;
 			text="Event Server";
+			font = PuristaSemibold;
 			style=2;
 			onbuttonclick="connectToServer ['162.248.92.58', 2342, '332nd']";
-			colorBackground[]={0,0,0,0.69999999};
+			colorBackground[]={0,0,0,0.40000001};
 			colorBackgroundActive[]={1,0,0,0,2};
 			borderSize=0.054000001;
 			colorBorder[]={0,0,0,0};
-			x="safeZoneX + safeZoneW - 0.6";
-			y="safeZoneY + safeZoneH - 0.5";
-			w="0.25";
+			x="safeZoneX + 0.43 * safeZoneW";
+			y="safeZoneY + 0.55 * safeZoneH";
+			w="0.35";
 			h="0.05";
 		};
 
@@ -168,7 +174,7 @@ class RscDisplayMain: RscStandardDisplay
 			y="SafeZoneY";
 			h="SafeZoneH";
 			w="SafeZoneW";
-			text="332nd_main_menu\Images\332nd_artwork_1.paa";
+			text="332nd_main_menu\Images\332nd_artwork_2.paa";
 		};
 	};
 };
@@ -184,7 +190,7 @@ class RscDisplayLoadMission: RscStandardDisplay
 			y="SafeZoneY";
 			h="SafeZoneH";
 			w="SafeZoneW";
-			text="332nd_main_menu\Images\332nd_artwork_1.paa";
+			text="332nd_main_menu\Images\332nd_artwork_2.paa";
 		};
 	};
 };
@@ -204,7 +210,7 @@ class RscDisplayLoading
 					y="SafeZoneY";
 					h="SafeZoneH";
 					w="SafeZoneW";
-					text="332nd_main_menu\Images\332nd_artwork_1.paa";
+					text="332nd_main_menu\Images\332nd_artwork_2.paa";
 				};
 			};
 		};
@@ -220,7 +226,7 @@ class RscDisplayLoading
 					y="SafeZoneY";
 					h="SafeZoneH";
 					w="SafeZoneW";
-					text="332nd_main_menu\Images\332nd_artwork_1.paa";
+					text="332nd_main_menu\Images\332nd_artwork_2.paa";
 				};
 			};
 		};
@@ -236,7 +242,7 @@ class RscDisplayLoading
 					y="SafeZoneY";
 					h="SafeZoneH";
 					w="SafeZoneW";
-					text="332nd_main_menu\Images\332nd_artwork_1.paa";
+					text="332nd_main_menu\Images\332nd_artwork_2.paa";
 				};
 			};
 		};
@@ -254,7 +260,7 @@ class RscDisplayLoadCustom: RscStandardDisplay
 			y="SafeZoneY";
 			h="SafeZoneH";
 			w="SafeZoneW";
-			text="332nd_main_menu\Images\332nd_artwork_1.paa";
+			text="332nd_main_menu\Images\332nd_artwork_2.paa";
 		};
 	};
 };
@@ -269,7 +275,7 @@ class RscDisplayClientWait: RscDisplayMPPlayers
 		y="SafeZoneY";
 		h="SafeZoneH";
 		w="SafeZoneW";
-		text="332nd_main_menu\Images\332nd_artwork_1.paa";
+		text="332nd_main_menu\Images\332nd_artwork_2.paa";
 	};
 };
 class RscDisplayClient: RscStandardDisplay
@@ -284,7 +290,7 @@ class RscDisplayClient: RscStandardDisplay
 			y="SafeZoneY";
 			h="SafeZoneH";
 			w="SafeZoneW";
-			text="332nd_main_menu\Images\332nd_artwork_1.paa";
+			text="332nd_main_menu\Images\332nd_artwork_2.paa";
 		};
 	};
 };
