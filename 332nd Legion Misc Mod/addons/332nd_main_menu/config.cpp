@@ -47,7 +47,7 @@ class RscDisplayMain: RscStandardDisplay
 	idd=0;
 	idc=1;
 	enableDisplay=1;
-	text="332nd_main_menu\Images\332nd_artwork_2.paa";
+	text="332nd_main_menu\Images\332nd_artwork_3.paa";
 	class RscActiveText;
 	class RscActivePicture: RscActiveText
 	{
@@ -174,7 +174,7 @@ class RscDisplayMain: RscStandardDisplay
 			y="SafeZoneY";
 			h="SafeZoneH";
 			w="SafeZoneW";
-			text="332nd_main_menu\Images\332nd_artwork_2.paa";
+			text="332nd_main_menu\Images\332nd_artwork_3.paa";
 		};
 	};
 };
@@ -190,7 +190,7 @@ class RscDisplayLoadMission: RscStandardDisplay
 			y="SafeZoneY";
 			h="SafeZoneH";
 			w="SafeZoneW";
-			text="332nd_main_menu\Images\332nd_artwork_2.paa";
+			text="332nd_main_menu\Images\332nd_artwork_3.paa";
 		};
 	};
 };
@@ -210,7 +210,7 @@ class RscDisplayLoading
 					y="SafeZoneY";
 					h="SafeZoneH";
 					w="SafeZoneW";
-					text="332nd_main_menu\Images\332nd_artwork_2.paa";
+					text="332nd_main_menu\Images\332nd_artwork_3.paa";
 				};
 			};
 		};
@@ -226,7 +226,7 @@ class RscDisplayLoading
 					y="SafeZoneY";
 					h="SafeZoneH";
 					w="SafeZoneW";
-					text="332nd_main_menu\Images\332nd_artwork_2.paa";
+					text="332nd_main_menu\Images\332nd_artwork_3.paa";
 				};
 			};
 		};
@@ -242,7 +242,7 @@ class RscDisplayLoading
 					y="SafeZoneY";
 					h="SafeZoneH";
 					w="SafeZoneW";
-					text="332nd_main_menu\Images\332nd_artwork_2.paa";
+					text="332nd_main_menu\Images\332nd_artwork_3.paa";
 				};
 			};
 		};
@@ -260,7 +260,7 @@ class RscDisplayLoadCustom: RscStandardDisplay
 			y="SafeZoneY";
 			h="SafeZoneH";
 			w="SafeZoneW";
-			text="332nd_main_menu\Images\332nd_artwork_2.paa";
+			text="332nd_main_menu\Images\332nd_artwork_3.paa";
 		};
 	};
 };
@@ -275,7 +275,7 @@ class RscDisplayClientWait: RscDisplayMPPlayers
 		y="SafeZoneY";
 		h="SafeZoneH";
 		w="SafeZoneW";
-		text="332nd_main_menu\Images\332nd_artwork_2.paa";
+		text="332nd_main_menu\Images\332nd_artwork_3.paa";
 	};
 };
 class RscDisplayClient: RscStandardDisplay
@@ -290,7 +290,7 @@ class RscDisplayClient: RscStandardDisplay
 			y="SafeZoneY";
 			h="SafeZoneH";
 			w="SafeZoneW";
-			text="332nd_main_menu\Images\332nd_artwork_2.paa";
+			text="332nd_main_menu\Images\332nd_artwork_3.paa";
 		};
 	};
 };
